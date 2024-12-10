@@ -26,7 +26,7 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
    <br />**One graph has the x-coordinate from below -2 to 2 and the y-coordinate from below 0 to 6. The other graph has the x-coordinate from -2 to 4 and the y-coordinate from below -2 to above      2. The path is shown with the color varying from dark blue to light blue which represents the time of the walk from 0 to 500. There is no clear pattern in the walk, the path turns often    and overlaps on itself with no sense of direction.**
    
    b) Investigate the term **random seeds**. What is a random seed and how does it work? (5 points)
-   <br /> **A random seed is a number that is used to initalise a semi-random event. For example, if I were to randomly generate a set of coordinates I could name that scenario 1 and when I randomly generate coordinates again with seed 1 it would give me the same coordinates. Random seeds can be used in situations where a random sequence is generated but the sequence should be accessible for future use.**
+   <br /> **A random seed is a number that is used to initialise a semi-random event. For example, if I were to randomly generate a set of coordinates I could name that scenario 1 and when I randomly generate coordinates again with seed 1 it would give me the same coordinates. Random seeds can be used in situations where a random sequence is generated but the sequence should be accessible for future use.**
    
    c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points) \
    Done.
