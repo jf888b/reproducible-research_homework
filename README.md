@@ -43,7 +43,7 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
    <br /> **I log transformed the data because it was heavily right skewed and many points were concentrated at the lower genome lengths with several major outliers. Right skewed data violates an assumption of linear modeling which is normally distributed data, meaning if the data had not been transformed a linear model would not accurately fit the data.**
    
    c) Find the exponent ($\beta$) and scaling factor ($\alpha$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)
-<br /> **The allometric equation $`V = \alpha L^{\beta}`$ is equal to $`log(V) = log(alpha) + beta * log(L)`$ The exponent is 1.52 which is the estimate of genome length given by the slope of the linear model. The scaling factor is 1181.81 which is the reverse log of the intercept given the linear model which is 7.07. I checked Table 2 of the paper and found the same results for the exponent and scaling factors.**
+<br /> **The allometric equation $`V = \alpha L^{\beta}`$ is equal to $`log(V) = log(\alpha) + \beta * log(L)`$ The exponent is 1.52 which is the estimate of genome length given by the slope of the linear model. The scaling factor is 1181.81 which is the reverse log of the intercept given the linear model which is 7.07. I checked Table 2 of the paper and found the same results for the exponent and scaling factors.**
    
    d) Write the code to reproduce the figure shown below. (10 points) 
   <p align="center">
