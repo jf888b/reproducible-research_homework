@@ -40,10 +40,10 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
    <br /> **33 rows and 13 columns.**
    
    b) What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)
-   <br /> **I log transformed the data because it was heavily right skewed and many points were concentrated at the lower genome lengths with several major outliers. Right skewed data violates an assumption of linear modeling which is normally distributed data, meaning if the data had not been transformed a linear model would not accurately fit the data.**
+   <br /> **I did a natural log transformation on the data because it was heavily right skewed and many points were concentrated at the lower genome lengths with several major outliers. Right skewed data violates an assumption of linear modeling which is normally distributed data, meaning if the data had not been transformed a linear model would not accurately fit the data.**
    
    c) Find the exponent ($\beta$) and scaling factor ($\alpha$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)
-<br /> **The allometric equation $`V = \alpha L^{\beta}`$ is equal to $`log(V) = log(\alpha) + \beta * log(L)`$. The exponent (\beta) is 1.52 which is the estimate of genome length given by the slope of the linear model. The scaling factor (\alpha) is 1181.81 which is the reverse log of the intercept given the linear model which is 7.07. I checked Table 2 of the paper and found the same results for the exponent and scaling factors.**
+<br /> **The allometric equation $`V = \alpha L^{\beta}`$ is equal to $`ln(V) = ln(\alpha) + \beta * ln(L)`$. The exponent (\beta) is 1.52 which is the estimate of genome length given by the slope of the linear model. The scaling factor (\alpha) is 1181.81 which is the reverse log of the intercept given the linear model which is 7.07. I checked Table 2 of the paper and found the same results for the exponent and scaling factors.**
    
    d) Write the code to reproduce the figure shown below. (10 points) 
   <p align="center">
@@ -51,4 +51,4 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
   </p>
 
   e) What is the estimated volume of a 300 kb dsDNA virus? (4 points) 
-  <br /> **The estimated volume of a 300 kb dsDNA virus is 6884015 nm^3. To find this I plugged 300 kb into the allometric equation $`V = \alpha L^{\beta}`$ to get $`ln(V) = ln(1182) + (1.52*ln(300))`$. Then I reverse log transformed (e^right side) to get the value for volume.**
+  <br /> **The estimated volume of a 300 kb dsDNA virus is 6884015 nm^3. To find this I plugged 300 kb into the allometric equation $`V = \alpha L^{\beta}`$ to get $`ln(V) = ln(1182) + (1.52*ln(300))`$. Then I reverse natural-log transformed (e^right side) to get the value for volume.**
