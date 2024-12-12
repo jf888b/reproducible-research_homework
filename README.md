@@ -1,7 +1,6 @@
 # Reproducible research: version control and R
 
-#Answers
-1, 2, 3: https://github.com/jf888b/logistic_growth
+**Answers 1, 2, 3:** https://github.com/jf888b/logistic_growth
 
 
 ## Instructions
