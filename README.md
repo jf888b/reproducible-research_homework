@@ -27,12 +27,12 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
    b) Investigate the term **random seeds**. What is a random seed and how does it work? (5 points)
    <br /> **A random seed is a number that is used to initialise a semi-random event. For example, if I were to randomly generate a set of coordinates I could name that scenario 1 and when I randomly generate coordinates again with seed 1 it would give me the same coordinates. Random seeds can be used in situations where a random sequence is generated but the sequence should be accessible for future use.**
    
-   c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points) 
-   d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)
+   c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)
+   <br /> d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)
   <img width="1444" alt="Screenshot 2024-12-12 at 10 48 37 PM" src="https://github.com/user-attachments/assets/2b0aed35-f439-4aae-93e4-891c400d850f" />
 
 
-5) (**30 points**) In 2014, Cui, Schlub and Holmes published an article in the *Journal of Virology* (doi: https://doi.org/10.1128/jvi.00362-14) showing that the size of viral particles, more specifically their volume, could be predicted from their genome size (length). They found that this relationship can be modelled using an allometric equation of the form **$`V = \alpha L^{\beta}`$**, where $`V`$ is the virion volume in nm<sup>3</sup> and $`L`$ is the genome length in nucleotides.
+6) (**30 points**) In 2014, Cui, Schlub and Holmes published an article in the *Journal of Virology* (doi: https://doi.org/10.1128/jvi.00362-14) showing that the size of viral particles, more specifically their volume, could be predicted from their genome size (length). They found that this relationship can be modelled using an allometric equation of the form **$`V = \alpha L^{\beta}`$**, where $`V`$ is the virion volume in nm<sup>3</sup> and $`L`$ is the genome length in nucleotides.
 
    a) Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the `question-5-data` folder). How many rows and columns does the table have? (3 points)
    <br /> **33 rows and 13 columns.**
