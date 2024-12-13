@@ -28,6 +28,7 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
    <br /> **A random seed is a number that is used to initialise a semi-random event. For example, if I were to randomly generate a set of coordinates I could name that scenario 1 and when I randomly generate coordinates again with seed 1 it would give me the same coordinates. Random seeds can be used in situations where a random sequence is generated but the sequence should be accessible for future use.**
    
    c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)
+   
    <br /> d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)
   <img width="1444" alt="Screenshot 2024-12-12 at 10 48 37 PM" src="https://github.com/user-attachments/assets/2b0aed35-f439-4aae-93e4-891c400d850f" />
 
