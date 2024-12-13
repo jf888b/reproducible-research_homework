@@ -27,8 +27,7 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
    b) Investigate the term **random seeds**. What is a random seed and how does it work? (5 points)
    <br /> **A random seed is a number that is used to initialise a semi-random event. For example, if I were to randomly generate a set of coordinates I could name that scenario 1 and when I randomly generate coordinates again with seed 1 it would give me the same coordinates. Random seeds can be used in situations where a random sequence is generated but the sequence should be accessible for future use.**
    
-   c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points) \
-   Done.
+   c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points) 
    d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)
   <img width="1444" alt="Screenshot 2024-12-12 at 10 48 37 PM" src="https://github.com/user-attachments/assets/2b0aed35-f439-4aae-93e4-891c400d850f" />
 
@@ -39,7 +38,7 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
    <br /> **33 rows and 13 columns.**
    
    b) What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)
-   <br /> **I did a natural log transformation on the data because it was heavily right skewed and many points were concentrated at the lower genome lengths with several major outliers. Right skewed data violates an assumption of linear modeling which is normally distributed data, meaning if the data had not been transformed a linear model would not accurately fit the data.**
+   <br /> **I did a natural log transformation on the data because it was heavily right-skewed and many points were concentrated at the lower genome lengths with several major outliers. Right skewed data violates an assumption of linear modeling which is normally distributed data, meaning if the data had not been transformed a linear model would not accurately fit the data.**
    
    c) Find the exponent ($\beta$) and scaling factor ($\alpha$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)
 <br /> **The allometric equation $`V = \alpha L^{\beta}`$ is equal to $`ln(V) = ln(\alpha) + \beta * ln(L)`$. The exponent $`(\beta)`$ is 1.52 which is the estimate of genome length given by the slope of the linear model. The scaling factor $`(\alpha)`$ is 1181.81 which is the reverse log of the intercept given the linear model which is 7.07. I checked Table 2 of the paper and found the same results for the exponent and scaling factors.**
